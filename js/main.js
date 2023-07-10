@@ -39,3 +39,70 @@ window.onscroll = () => {
 }
 
 
+// var swiper = new swiper(".product-slider", {
+//     loop:true,
+//     spaceBetween: 20,
+
+//     autoplay: {
+//         delay: 7500,
+//         disableOneInteraction: false,
+//     },
+//     breakpoints: {
+//       0: {
+//         slidesPerView: 1,
+//       },
+//       768: {
+//         slidesPerView: 2,
+//       },
+//       1020: {
+//         slidesPerView: 3,
+
+//       },
+//     },
+//   });
+
+
+// var swiper = new Swiper(".product-slider", {
+//     slidesPerView: "auto",
+//     centeredSlides: true,
+//     spaceBetween: 30,
+//     freeMode: true,
+//     scrollbar: {
+//       el: ".swiper-scrollbar",
+//       hide: false,
+//       draggable: true,
+//       snapOnRelease: false
+//     },
+//     pagination: {
+//       el: ".swiper-pagination",
+//       type: "fraction"
+//     },
+//     navigation: {
+//       nextEl: ".swiper-button-next",
+//       prevEl: ".swiper-button-prev"
+//     }
+//   });
+
+
+var swiper = new Swiper(".product-slider", {
+    loop:true,
+    spaceBetween: 20,
+
+    autoplay: {
+        delay: 7500,
+        disableOnInteraction: false,
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      1020: {
+        slidesPerView: 3,
+
+      },
+    },
+  });
+  
